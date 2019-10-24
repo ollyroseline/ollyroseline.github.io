@@ -1,0 +1,117 @@
+body, div, a, img{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+#top_section{
+	padding: 10px 18px;
+	overflow: hidden;
+}
+#top_section_inner{
+	width: 14%;
+	float: right;
+	position: relative;
+	overflow: hidden;
+	padding: 6px;
+}
+#top_section_inner div, #top_section_inner img{
+	float: left;
+	font-size: 14px;
+	margin: 10px 10px 0px 10px;
+}
+
+#top_section_inner img{
+	width: 35px;
+	height: 35px;
+	border-radius: 50%;
+	margin: 0px;
+}
+#middle_section{
+	padding: 109px 0px;
+}
+#logo {
+	font-size: 90px;
+	font-family: "Snap ITC";
+	letter-spacing: -20px;
+	text-align: center;
+}
+
+#g{
+	color: rgb(66, 133, 244);
+}
+#first_o{
+	color: rgb(234, 67, 53);
+}
+#second_o{
+	color: rgb(251, 188, 5);
+}
+#second_g{
+	color: rgb(66, 133, 244);
+}
+#l{
+	color: rgb(52, 168, 83);
+}
+#e{
+	color: rgb(234, 67, 53);
+}
+
+#middle_section_second{
+	width: 45%;
+	margin: auto;
+
+}
+input{
+	width: 100%;
+	padding: 14px;
+	border-radius: 100px;
+	border: 1px solid #ccc;
+	margin: 30px 0px;
+}
+center{
+	margin-bottom: 22px;
+}
+button{
+	background: #eee;
+	padding: 12px 16px;
+	border: none;
+	margin: 0px 6px;
+	border-radius: 3px; 
+}
+#languages{
+	font-size: 15px;
+	text-align: center;
+}
+#languages a{
+	color: #1a0dab;
+	text-decoration: none;
+}
+
+#bottom_section{
+	background: #ddd;
+	position: absolute;
+	bottom: 0px;
+	width: 100%;
+	color: #666;
+}
+#nig{
+	border-bottom: 1px solid #aaa;
+	padding: 16px;
+	font-family: arial
+}
+#left{
+	width: 70%;
+}
+#right{
+	width: 30%;
+	text-align: right;
+}
+#left, #right{
+	float: left;
+	padding: 14px;
+}
+#left a, #right a{
+	color: #666;
+	text-decoration: none;
+	margin: 0px 6px;
+}
